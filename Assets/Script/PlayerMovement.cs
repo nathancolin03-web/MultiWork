@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
 
     public float moveSpeed = 1;
 
+    public Animator animator;
+
 
     void Start()
     {
@@ -20,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         rb.linearVelocity = new Vector2(movement .x * moveSpeed, movement.y * moveSpeed);
+        animator.SetFloat("Speed",movement.sqrMagnitude);
         
     }
 
