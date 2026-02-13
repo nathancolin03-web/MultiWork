@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Animator animator;
 
+    public SpriteRenderer sr;
+
 
     void Start()
     {
@@ -23,6 +25,18 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(movement .x * moveSpeed, movement.y * moveSpeed);
         animator.SetFloat("Speed",movement.sqrMagnitude);
+
+        if (movement.x != 0)
+        {
+            if(movement.x < 0)
+            {
+                sr.flipX = true;
+            }
+            else
+            {
+                sr.flipX = false;
+            }
+        }
         
     }
 
