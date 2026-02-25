@@ -267,6 +267,17 @@
                 {
                     "name": "",
                     "id": "9740c81f-a420-4ddc-a873-4c079caefb67",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eedfd85c-b3b7-445f-b709-e72cf4f23b19",
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",

@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Ennemy
   layers:
   - Default
   - TransparentFX
@@ -41,14 +42,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Stage2
+  - name: Ground
     uniqueID: 4250941897
     locked: 0
-  - name: Stage1
+  - name: Behind
     uniqueID: 2425651459
     locked: 0
-  - name: Layer 3
+  - name: collision
     uniqueID: 4189426099
+    locked: 0
+  - name: Player
+    uniqueID: 1346124203
+    locked: 0
+  - name: Front
+    uniqueID: 1362303885
     locked: 0
   m_RenderingLayers:
   - Default
